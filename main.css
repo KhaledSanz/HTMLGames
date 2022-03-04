@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+  color: silver;
+  background-color: khaki;
+  left: 0%;
+  margin: 1px;
+  min-height: 20px;
+}
+.Allbuttons {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.BTN1 {
+  background-color: lightgoldenrodyellow;
+  border-radius: 100px;
+  min-height: 10vh;
+  margin-top: 20px;
+  margin-left: 470px;
+  width: 100%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.BTN2 {
+  background-color: lightgoldenrodyellow;
+  border-radius: 100px;
+  min-height: 10vh;
+  margin-top: 20px;
+  margin-left: 470px;
+  width: 100%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.BTN3 {
+  background-color: lightgoldenrodyellow;
+  border-radius: 100px;
+  min-height: 10vh;
+  margin-top: 20px;
+  margin-left: 470px;
+  width: 100%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+.BTN1:hover,
+.BTN2:hover,
+.BTN3:hover {
+  background: khaki;
+}
