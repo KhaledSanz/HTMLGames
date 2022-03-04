@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <a href="index.html"> <img src="/images/WEB LOGO.jpg" alt="" /></a>
+  <body>
+    <h1>⬇ ENTER LOGIN DETAILS ⬇</h1>
+    <div class="loginbox">
+      <section class="container">
+        <form id="my-form">
+          <div class="msg"></div>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+          </div>
+          <div>
+            <label for="email">Password:</label>
+            <input type="text" id="password" />
+          </div>
+          <input class="btn" type="submit" value="Submit" />
+         <a href="lregister.html">Register Here</a>
+
+        </form>
+  
+        <ul id="users"></ul>
+      </form>
+    </div>
+    <style>
+      h1 {
+        background-color: khaki;
+        font-style: normal;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: lighter;
+      }
+      body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  padding: 5px;
+  background: #f4f4f4;
+  margin: 5px 0;
+}
+header {
+  background: #f4f4f4;
+  padding: 1rem;
+  text-align: center;
+}
+.container {
+  margin: auto;
+  width: 500px;
+  overflow: auto;
+  padding: 3rem 2rem;
+}
+#my-form {
+  padding: 2rem;
+  background: lightgoldenrodyellow;
+  border-radius: 20px;
+}
+#my-form label {
+  display: block;
+}
+#my-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.btn {
+  display: block;
+  width: 104%;
+  padding: 10px 15px;
+  border: 0;
+  background: khaki;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.btn:hover {
+  background: #444;
+}
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+    </style>
+  </body>
+</html>
